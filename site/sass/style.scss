@@ -13,17 +13,47 @@ header {
    padding: .5em;
    line-height: 28px;
    font-family: $font-stack;
-   font-size: 20px;
+   font-size: 40px;
    color: $secondary-color;
 }
 
-nav {
+h2 {
+   background: {
+      color: inherit;
+      image: none;
+      repeat: no-repeat;
+      attachment: fixed;
+      position: top left;
+   }
+   position: relative;
+   left: 8px;
+   line-height: 80px;
+   color: $text-color;
+}
+
+h3 {
+   position: relative;
+   left: 7px;
+   line-height: 100px;
+}
+
+body > nav {
    position: relative;
    left: 22px;
    padding: .5em;
    line-height: 35px;
    font-family: $font-stack;
    font-size: 20px;
+}
+
+p {
+   position: relative;
+   left: 18px;
+   padding: .5em;
+   margin: 10px;
+   line-height: 33px;
+   font-family: $font-stack;
+   font-size: 24px;
 }
 
 a {
@@ -37,7 +67,7 @@ a {
    
    &:hover {
       color: $secondary-color;
-      transition: 275ms;
+      transition: 350ms;
    }
    
    &:active {

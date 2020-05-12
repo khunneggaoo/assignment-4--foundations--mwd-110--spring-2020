@@ -5,6 +5,18 @@ body {
    color: $text-color;
 }
 
+nav {
+   position: relative;
+   left: 19px;
+   padding: .50em;
+   font-family: $font-stack-body;
+}
+
 header {
+   position: relative;
+   left: 10px;
+   top: 15px;
+   margin: 10px;
+   padding: .50em;
    color: $secondary-color;
 }

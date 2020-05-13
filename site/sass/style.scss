@@ -28,7 +28,7 @@ h2 {
    }
    position: relative;
    left: 8px;
-   line-height: 80px;
+   line-height: 100px;
    color: $text-color;
 }
 
@@ -47,14 +47,14 @@ h3 {
 
 span {
    &.highlight {
-      background-color: $text-color;
-      color: $secondary-color;
+      background-color: $secondary-color;
+      color: $primary-color;
    }
 }
 
 body > nav {
    position: relative;
-   left: 22px;
+   left: 38px;
    padding: .5em;
    line-height: 35px;
    font-family: $font-stack;

@@ -33,9 +33,6 @@ h2 {
 }
 
 h3 {
-   &.highlight {
-      background-color: white;
-   }
    background: {
       color: inherit;
       image: none;
@@ -46,6 +43,13 @@ h3 {
    position: relative;
    left: 7px;
    line-height: 100px;
+}
+
+span {
+   &.highlight {
+      background-color: $text-color;
+      color: $secondary-color;
+   }
 }
 
 body > nav {

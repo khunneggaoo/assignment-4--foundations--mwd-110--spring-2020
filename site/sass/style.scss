@@ -1,7 +1,7 @@
 @import 'variables';
 @import 'mixins';
 
-   body {
+body {
    background-color: $primary-color;
    color: $text-color;
 }
@@ -33,6 +33,9 @@ h2 {
 }
 
 h3 {
+   &.highlight {
+      background-color: white;
+   }
    background: {
       color: inherit;
       image: none;
@@ -69,16 +72,16 @@ a {
       color: $text-color;
       text-decoration: underline;
    }
-   
+
    &:visited {
       color: $text-color;
    }
-   
+
    &:hover {
       color: $secondary-color;
       transition: 350ms;
    }
-   
+
    &:active {
       text-decoration: none;
    }

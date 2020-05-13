@@ -1,0 +1,11 @@
+@mixin transition ( $property: all, $duration: 2s, $timing_functions: ease, $delay: 0s) {
+   -webkit-transition: $property $duration $timing_function $delay;
+   -moz-transition: $property $duration $timing_function $delay;
+   -ms-transition: $property $duration $timing_function $delay;
+   -o-transition: $property $duration $timing_function $delay;
+   transition: $property $duration $timing_function $delay;
+}
+@mixin javascript-code {
+   font: 1rem / 1.5 $font-stack;
+   color: black;
+}
